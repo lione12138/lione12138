@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人资料</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .profile img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .profile-details {
+            flex: 1;
+        }
+        .profile-details h1 {
+            margin: 0 0 10px;
+        }
+        .profile-details p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>个人资料</h1>
+    </header>
+    <div class="container">
+        <div class="profile">
+            <img src="profile.jpg" alt="个人头像">
+            <div class="profile-details">
+                <h1>姓名：张三</h1>
+                <p>职业：前端开发工程师</p>
+                <p>简介：热爱编程与设计，擅长构建用户友好的网站和应用。</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
